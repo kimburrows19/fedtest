@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Developer Test</title>
 <!--    <link rel="stylesheet" href="css/bootstrap.css" />-->
+    <link rel="stylesheet" href="css/test.css" />
+
+    <link rel="stylesheet/less" type="text/css" href="less/bootstrap.less" />
+
  <!--   <link rel="stylesheet" href="css/main.css" />-->
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet/less" type="text/css" href="less/bootstrap.less" />
     <script src="js/less-1.6.1.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/test.css" />
     <script type="text/javascript" src="js/test.js"></script>
   </head>
   <body>
@@ -18,10 +20,23 @@
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
     </div>
     <div class="container">
-        <img class="img-responsive" src="images/banner.jpg" alt="" />
-    
-  <!--    <div class="pull-right">
-        <form  method="post" action="index.html">
+        <img class="img-responsive" src="images/banner.jpg" alt="" /> 
+        <div class="row">
+          <div class="content col-lg-7">
+            <p>
+              Aliquam sed nibh elit. Morbi non augue eu turpis dictum convallis sed et sapien. 
+              Donec ac pretium nisi. Cras ac erat ut nibh hendrerit sodales eget in orci. Duis 
+              pellentesque gravida orci ac ornare. In hac habitasse platea dictumst. Sed justo 
+              sapien, faucibus eu aliquet et, molestie quis orci.
+            </p>
+            <p>
+              Vivamus pulvinar, felis sed porttitor luctus, ligula nisl hendrerit nibh, vitae 
+              lobortis massa odio at elit. Sed et felis metus, nec eleifend dui. Quisque eget 
+              semper eros. Etiam gravida lobortis nibh, vitae viverra velit rhoncus sodales.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <form  id="frm-submit" method="post" action="index.html">
         <h2>Nibh Hendrerit Sodales</h2>
         <label>
           First Name:
@@ -39,54 +54,14 @@
           Email Address:
           <input type="text" name="email" />
         </label>
+        <div id='edlevel-list'>
+        </div>
         <div class="actions">
           <button type="submit">Request Information</button>
         </div>
         </form>
-      </div>-->
-      <div class="row">
-          <div class="col-lg-7">
-            <p>
-              Aliquam sed nibh elit. Morbi non augue eu turpis dictum convallis sed et sapien. 
-              Donec ac pretium nisi. Cras ac erat ut nibh hendrerit sodales eget in orci. Duis 
-              pellentesque gravida orci ac ornare. In hac habitasse platea dictumst. Sed justo 
-              sapien, faucibus eu aliquet et, molestie quis orci.
-            </p>
-            <p>
-              Vivamus pulvinar, felis sed porttitor luctus, ligula nisl hendrerit nibh, vitae 
-              lobortis massa odio at elit. Sed et felis metus, nec eleifend dui. Quisque eget 
-              semper eros. Etiam gravida lobortis nibh, vitae viverra velit rhoncus sodales.
-            </p>
-          </div>
-          <div class="col-lg-5">
-            <form  id="frm-submit" method="post" action="index.html">
-            <h2>Nibh Hendrerit Sodales</h2>
-            <label>
-              First Name:
-              <input type="text" name="first_name" required="" />
-            </label>
-            <label>
-              Last Name:
-              <input type="text" name="last_name" required=""  />
-            </label>
-            <label>
-              Phone Number:
-              <input type="text" class="phone" name="phone" required="" />
-            </label>
-            <label>
-              Email Address:
-              <input class="email" type="text" name="email" required="" />
-            </label>
-            <div id="edlevel-list">
-              Current Education Level:<br/>
-            </div>
-            <div class="actions">
-              <button type="submit">Request Information</button>
-            </div>
-            </form>
           </div>
       </div>
-
     </div>
   </body>
 </html>
