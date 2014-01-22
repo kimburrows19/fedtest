@@ -4,15 +4,6 @@ body {
     font: 14px/1.6em sans-serif !important;
     margin: 0;
 }
-#frm-submit {
-    background-color: #FFFFFF;
-    border: 1px solid #839496;
-    box-shadow: 4px 4px 0 rgba(90, 90, 90, 0.4);
-    margin: 0 20 0 20px;
-    padding: 30px;
-    width: 370px;
-    position: relative;
-}
 input {
   display: block;
   width: 100%;
@@ -34,6 +25,7 @@ margin: 0;
   text-align: center;
   background-color: #ddd;
   color: #586e75 !important;
+  font-size: 21px !important;
 }
 label {
   display: block !important;
@@ -60,16 +52,20 @@ img {/*needed this to make image responsive on chrome*/
 .row{
   margin: 0 0 !important;
 }
-/*.content {
-    padding-left: 20px;
-    max-width: 520px;
-}*/
-
 .header {
     background-color: #586E75;
     color: #FFFFFF;
     padding: 40px 0;
     text-align: center;
+}
+#frm-submit {
+    background-color: #FFFFFF;
+    border: 1px solid #839496;
+    box-shadow: 4px 4px 0 rgba(90, 90, 90, 0.4);
+    margin: 0 20 0 20px;
+    padding: 30px;
+    width: 370px;
+    position: relative;
 }
 .actions button {
   width: 100%;
