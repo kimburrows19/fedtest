@@ -1,15 +1,15 @@
 $(document).ready(function(){
 	
-	if($(window).width()<=930){$('#frm-submit').css({bottom:"0px"});}
+	if($('.container').width()<930){$('#frm-submit').css({bottom:"0px"});}
 	else{$('#frm-submit').css({bottom:"280px"});}
 
 	$(window).resize(function(){
-		if($(window).width() <= 930){
-			if($('.stuff')){$('.stuff').remove();}
-			$( "body" ).prepend( "<div class='stuff'>" + $( window ).width() + "</div>" );
+		if($('.container').width() < 930){
+		//	if($('.stuff')){$('.stuff').remove();}
+		//	$( "body" ).prepend( "<div class='stuff'>" + $('.container').width() + "</div>" );
 			$('#frm-submit').css({bottom:"0px"});
 		}
-		if($(window).width()>930){
+		if($('.container').width()>=930){
 			$('#frm-submit').css({bottom:"280px"});
 		}
 	});	
