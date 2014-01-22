@@ -53,7 +53,7 @@ img {/*needed this to make image responsive on chrome*/
      max-width: 100% !important;
      }
 .container{
-    padding:0;
+    padding:0 !important;
     margin: 0;
 
 }

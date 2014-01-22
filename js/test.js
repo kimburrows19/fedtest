@@ -1,15 +1,15 @@
 $(document).ready(function(){
 	
-	if($('.container').width()<930){$('#frm-submit').css({bottom:"0px"});}
+	if($('.container').width()<960){$('#frm-submit').css({bottom:"0px"});}
 	else{$('#frm-submit').css({bottom:"280px"});}
 
 	$(window).resize(function(){
-		if($('.container').width() < 930){
+		if($('.container').width() < 960){
 		//	if($('.stuff')){$('.stuff').remove();}
 		//	$( "body" ).prepend( "<div class='stuff'>" + $('.container').width() + "</div>" );
 			$('#frm-submit').css({bottom:"0px"});
 		}
-		if($('.container').width()>=930){
+		if($('.container').width()>=960){
 			$('#frm-submit').css({bottom:"280px"});
 		}
 	});	
