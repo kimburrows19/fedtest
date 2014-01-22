@@ -1,0 +1,90 @@
+body {
+    background: url("../images/bg.png") repeat scroll 0 0 #EEEEEE;
+    color: #666666;
+    font: 14px/1.6em sans-serif;
+    margin: 0;
+}
+#frm-submit {
+    background-color: #FFFFFF;
+    border: 1px solid #839496;
+    box-shadow: 4px 4px 0 rgba(90, 90, 90, 0.4);
+    margin: 0 20 0 20px;
+    padding: 30px;
+    position: relative;
+    bottom: 280px;
+    /*left: 83px;*/
+    width: 370px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #93a1a1;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+  line-height: 22px;
+  font-size: 28px;
+}
+h2 {
+    background-color: #DDDDDD;
+    color: #586E75;
+    margin: -29px -29px 20px;
+    padding: 20px 29px;
+    text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: .8em;
+  color #222;
+}
+p{
+  padding: 20px 0 0 0;
+}
+img {/*needed this to make image responsive on chrome*/
+     vertical-align: middle;
+     border: 0;
+     page-break-inside: avoid;
+     max-width: 100% !important;
+     }
+.form-div{
+  padding-left: 38px;
+}
+.container{
+    height: 510px;
+    padding:0;
+
+}
+.row{
+  margin: 0 0;
+}
+/*.content {
+    padding-left: 20px;
+    max-width: 520px;
+}*/
+.header {
+    background-color: #586E75;
+    color: #FFFFFF;
+    padding: 40px 0;
+    text-align: center;
+}
+.actions button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #859901;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn-radio{
+  display: inline;
+  width: 20px;
+}
+}
